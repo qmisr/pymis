@@ -1,4 +1,4 @@
-baseURL = "https://pymis.netlify.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "CBA MIS Python Resources"
 theme = "cupper-hugo-theme"
