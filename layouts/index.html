@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <main id="main">
+    <h1>{{ .Title }}</h1>
+    <ul class="patterns-list">
+        {{ range first 10 .Site.RegularPages }}
+      <li>
+        <h2>
+          <a href="{{ .Permalink }}">
+            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+              <use xlink:href="#bookmark"></use>
+            </svg>
+            {{ .Title }} <div class="date">{{.Date.Format "Jan 2nd 2006"}}</div>
+          </a>
+        </h2>
+        {{ truncate 50 .Content }} 
+      </li>        
+    {{ end }}
+    </ul>
+  </main>
+{{ end }}
