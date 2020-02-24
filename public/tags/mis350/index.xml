@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CBA MIS Python Resources</title>
-    <link>http://example.org/</link>
-    <description>Recent content on CBA MIS Python Resources</description>
+    <title>mis350 on CBA MIS Python Resources</title>
+    <link>http://example.org/tags/mis350/</link>
+    <description>Recent content in mis350 on CBA MIS Python Resources</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 20:04:32 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 17:35:48 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/mis350/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Python Intro</title>
-      <link>http://example.org/post/python-intro/</link>
-      <pubDate>Mon, 24 Feb 2020 20:04:32 +0300</pubDate>
-      
-      <guid>http://example.org/post/python-intro/</guid>
-      <description>Python introduction here. &amp;hellip;
-  </description>
-    </item>
     
     <item>
       <title>MIS is transitioning to Python</title>
